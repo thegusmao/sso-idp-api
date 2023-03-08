@@ -17,7 +17,7 @@ class RestApiConfiguration extends RouteBuilder {
 	@Override
 	public void configure() {
 		restConfiguration().component("servlet").contextPath(contextPath.concat("/").concat(apiVersion))
-				.apiContextPath("/api-doc").apiProperty("api.title", "Prodepa GOVBR API")
+				.apiContextPath("/api-doc").apiProperty("api.title", "SSO GOVBR API")
 				.apiProperty("api.version", apiVersion).apiProperty("cors", "true").apiContextRouteId("doc-api")
 				.port("{{server.port}}").bindingMode(RestBindingMode.off);
 
