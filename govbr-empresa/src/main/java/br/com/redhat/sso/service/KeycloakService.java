@@ -1,4 +1,4 @@
-package br.gov.pa.prodepa.service;
+package br.com.redhat.sso.service;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -8,6 +8,8 @@ import javax.ws.rs.core.HttpHeaders;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
+import br.com.redhat.sso.util.ConnectionUtils;
+
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -16,8 +18,6 @@ import org.apache.http.util.EntityUtils;
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
-import br.gov.pa.prodepa.util.ConnectionUtils;
 
 @Service
 public class KeycloakService {

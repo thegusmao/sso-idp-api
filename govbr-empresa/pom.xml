@@ -4,7 +4,7 @@
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>br.gov.pa.prodepa</groupId>
+	<groupId>br.com.redhat.sso</groupId>
 	<artifactId>govbr-empresa</artifactId>
 	<version>1.0.0</version>
 

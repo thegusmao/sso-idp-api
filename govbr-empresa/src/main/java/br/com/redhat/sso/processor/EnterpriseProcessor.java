@@ -1,4 +1,4 @@
-package br.gov.pa.prodepa.processor;
+package br.com.redhat.sso.processor;
 
 import java.util.Base64;
 
@@ -7,13 +7,13 @@ import javax.ws.rs.core.HttpHeaders;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
+import br.com.redhat.sso.service.EnterpriseService;
+
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import br.gov.pa.prodepa.service.EnterpriseService;
 
 /**
  * OrquestradorExceptionProcessor tem o objetivo de centralizar todo o

@@ -1,4 +1,4 @@
-package br.gov.pa.prodepa.config;
+package br.com.redhat.sso.config;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestBindingMode;

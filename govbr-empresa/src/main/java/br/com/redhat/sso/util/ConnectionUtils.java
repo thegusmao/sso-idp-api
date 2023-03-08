@@ -1,4 +1,4 @@
-package br.gov.pa.prodepa.util;
+package br.com.redhat.sso.util;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
